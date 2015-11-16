@@ -1,18 +1,10 @@
-/*
-  Theme Name: Triangle
-  Theme Uri: http://www.themeum.com
-  Author: Themeum
-  Author Uri: http://www.themeum.com
-  Description: Creative Site Template
-  Version: 1.1
-  */
 
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
   body {
-    background: #fff;
+    background: #ffff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -167,7 +159,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  /*padding: 30px 0 60px 0; */
 }
 
 #header .navbar-inverse .container{
@@ -220,7 +212,7 @@
 }
 
 .social-icons ul li a{
-  font-size: 18px;
+  font-size: 14px;
   color: #d3d3d3;
   padding: 0;
 }
@@ -276,7 +268,7 @@
 
 #header .navbar-nav.navbar-right >li a {
   color: #000;
-  font-size: 18px;
+  font-size: 14px;
   padding: 20px;
   text-transform: uppercase;
   font-weight: 350;
@@ -701,7 +693,7 @@ ul.sub-menu {
 
 .action .btn-common{
   margin-top: 55px;
-  float: left;
+  
 }
 
 .title {
@@ -785,7 +777,7 @@ ul.sub-menu {
 }
 
 .tour-button {
-  background-image: url(../images/home/brain.png);
+  
   height: 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -2729,4 +2721,80 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+
+
+/* my addition:Shahid */
+.topNav{padding: 0;border-bottom: 1px solid #CCC;background: #f2f2f2;box-shadow: 0 0 3px #B1AFAF;}
+
+#sidebar ul {margin: 0;padding: 0;}
+#sidebar .alert {padding: 8px;}
+#sidebar .nav a{color:#000}
+#sidebar .nav a:hover{color:#f89406}
+#sidebar .cart{border:1px solid #B94A48; }
+#sidebar h4{margin:0;  line-height:1.5em; padding:0 13px;  }
+#sidebar h2{font-size:21px; line-height:21px;}
+#sidebar a.defaultBtn:hover, .defaultBtn:hover{color:#fff; text-decoration:none; background:#333}
+#sidebar .nav a.zoomTool{color:#fff} 
+
+
+#myCarousel.homCar .item img{width:100%; max-height:400px}
+#myCarousel .btn {border: 0 none;border-radius: 0 0 0 0;bottom: 49px;font-size: 18px;line-height: 42px;padding: 0 28px;position: absolute;right: 0;text-shadow: 0 0 0 transparent;}	
+#myCarousel{position:relative; margin: 0;}
+.np{padding:0}
+
+.thumbnail>a{display:block; text-align:center}
+.carousel-caption {background: transparent;background: transparent;}
+#compairTbl td{text-align:center;}
+.justify{text-align:justify;}
+
+.carousel-control {border: 0px; border-radius:2px}
+.carousel-control, .carousel-control:hover {background:#999; height:43px; line-height:34px; color: #fff;}
+.carousel-control {top: 50%;}
+.carousel .item > img {display:inline;}
+.carousel-control.left{left: -15600px;}
+.carousel-control.right{right: -15600px;}
+.carousel:hover .carousel-control.right{right: 8px; left: auto;}
+.carousel:hover .carousel-control.left{left: 8px;}
+.homCar h4 {color: #fff;padding: 11px 4px;font-size: 26px;text-transform: uppercase;float: left;width: auto;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';opacity: 0.8;}
+.homCar p span{background-color: #fff;color: #000;padding: 2px 10px;line-height: 30px;font-size: 28px;float: left;width: auto;opacity: 0.8;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=80)';}
+.homCar{overflow:hidden;}
+
+
+.thumbnail {
+    padding: 0;
+}
+
+
+.caption {
+    height: 50px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.name-font {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+    background-color: #ffffff;
 }
