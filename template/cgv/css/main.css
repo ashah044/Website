@@ -71,7 +71,7 @@
   }
 
   .btn-common {
-    font-size: 14px;
+    font-size: 20px;
     color: #0099ae;
     border: 1px solid #0099ae;
     font-family: 'Open Sans', sans-serif;
@@ -2798,3 +2798,6 @@ span.stButton_gradient,
     color: #333333;
     background-color: #ffffff;
 }
+
+.alignR{text-align:right;}
+.btn{ font-size: 20px;}
